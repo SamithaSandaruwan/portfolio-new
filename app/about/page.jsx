@@ -49,7 +49,7 @@ const About = () => {
     <div className="flex flex-grow flex-row justify-between items-center p-10 space-y-6">
       <div className="">
         <h1 className="text-4xl font-bold text-[#61afef] pb-5">
-        <EncryptionText text="About" speed={100} duration={2000} />
+        <EncryptionText text=">_About" speed={100} duration={2000} />
         </h1>
         <p className="max-w-[600px] text-lg text-[#abb2bf]">
           Hello, my name is Samitha Sandaruwan. I am a Software Engineer with a
