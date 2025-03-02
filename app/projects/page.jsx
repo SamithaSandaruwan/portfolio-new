@@ -4,30 +4,7 @@ import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { FaGithub } from "react-icons/fa";
-
-const projects = [
-  {
-    name: "Project 1",
-    description: "This is a project about ...",
-    technologies: ["React", "Next.js", "Tailwind CSS"],
-    image: "https://letsenhance.io/static/73136da51c245e80edc6ccfe44888a99/1015f/MainBefore.jpg",
-    github: "https://github.com/yourproject1",
-  },
-  {
-    name: "Project 2",
-    description: "This project focuses on ...",
-    technologies: ["Node.js", "MongoDB", "Express"],
-    image: "https://via.placeholder.com/500x300",
-    github: "https://github.com/yourproject2",
-  },
-  {
-    name: "Project 3",
-    description: "A web application for ...",
-    technologies: ["JavaScript", "Firebase", "Redux"],
-    image: "https://via.placeholder.com/500x300",
-    github: "https://github.com/yourproject3",
-  },
-];
+import projects from "@/data/projects.json"; 
 
 const Projects = () => {
   useEffect(() => {

@@ -158,7 +158,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="flex flex-grow flex-col justify-between p-10 space-y-6">
+    <div className="flex flex-grow flex-col justify-between p-10 space-y-6 w-5/6">
       <div className="flex flex-col items-start space-y-6">
         <h1
           className="text-4xl font-bold text-[#61afef] pb-5"
